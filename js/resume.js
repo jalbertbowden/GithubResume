@@ -60,7 +60,7 @@ function loadRepoInfo(name) {
   				<h3><a href='{0}'>{1}</a> <small class='citystate'>{2}</small></h3>\
   				<strong>{3}<span class='octicon octicon-star'></span>   {4}<span class='octicon octicon-repo-forked'></span><span class='dates pull-right'>{5}</span></strong>\
 				  <h3>{6}</h3>\
-  			</div>";
+  			</div><hr />";
 		var langT = "<th></th><td>{0} {1}%</td>";
 		for(var i in repos){
 			reporender += sprintf(T,
